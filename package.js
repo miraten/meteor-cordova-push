@@ -2,7 +2,7 @@ Package.describe({
   name: 'leesangwon:cordova-push',
   summary: 'Cordova Push Notification package',
   version: '0.7.0',
-  git: ' /* Fill me in! */ '
+  git: 'https://github.com/miraten/meteor-cordova-push'
 });
 
 Cordova.depends({
