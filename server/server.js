@@ -27,9 +27,7 @@ Meteor.methods({
           }
         });
         
-//        Logger.info('Cordova deviceToken updated for userId = ' + this.userId);
-      } else {
-//        Logger.info('Cordova deviceToken set bypassed for userId = ' + this.userId);
+        Logger.info('Cordova deviceToken updated for userId = ' + this.userId);
       }
     } else {
       Connections.update(this.connection.id, { $set: {
